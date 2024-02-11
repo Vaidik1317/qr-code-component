@@ -1,0 +1,44 @@
+body{
+    background-color: #e3f2fd;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10%;
+  padding-left: 25%;
+}
+
+.main{
+
+  border: 1px solid black;
+  padding-left:1%;
+  
+  width: 45%;
+
+  
+  background-color: whitesmoke;
+}
+.img{
+  
+}
+
+img{
+  padding: 5%;
+  padding-right: 0%;
+  max-width: 90%;
+  
+}
+
+.text{
+  text-align:justify;
+}
+
+  @media screen and (min-width: 600px) {
+    .App{
+      display: flex;
+      justify-content: center;
+      padding: 10%;
+      padding-left: 25%;
+    }
+}
